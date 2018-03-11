@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request, abort
-
+import sender
 app = Flask('autoservice')
 
 @app.route('/')
@@ -16,6 +16,9 @@ def form():
         #print(request)
         resp = request.form
         print(resp)
+        sender.send(resp['name'],resp['email'], resp['message'])
+        #send = sender()
+
         #return 'OK'
     return redirect(url_for('index'))
 
@@ -26,4 +29,6 @@ def path(path):
     else:
         abort(404)
 
-app.run()
+
+
+app.run(host='127.0.0.1', port = 55557)
