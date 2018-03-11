@@ -82,7 +82,7 @@ margin:0;
 	}
 
 		#navButton .toggle:before {
-			content: "οƒ‰";
+			content: "Γ―Ζ’β€°";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
@@ -90,7 +90,7 @@ margin:0;
 			font-weight: normal;
 			text-transform: none !important;
 		}
-/* κνξοκΰ μενώ */
+/* ΓªΓ­Γ®Γ―ΓªΓ  Γ¬Γ¥Γ­ΓΎ */
 		#navButton .toggle:before {
 			background: rgba(144, 144, 144, 0.65);
 			border-radius: 3px;
@@ -250,8 +250,8 @@ margin-left:7vh;
 
 
 #main_info {
-padding-left:5vw;
-padding-right:5vw;
+padding-left:2vw;
+padding-right:2vw;
 
 }
 
