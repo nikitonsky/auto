@@ -1,0 +1,21 @@
+/*
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+#header {
+background-color: #383b43;
+		color: #ffffff;
+		cursor: default;
+		font-size: 1.1em;
+		height: 8em;
+		line-height: 8em;
+		width: 100%;
+		z-index: 10000;
+}
+
+#main-info{
+margin-left:1em
+margin-right:1em;
+}
