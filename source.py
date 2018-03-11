@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for, request, abort
 
 app = Flask('autoservice')
 
@@ -6,8 +6,24 @@ app = Flask('autoservice')
 def root():
     return render_template('index'+'.html')
 
+@app.route('/index')
+def index():
+    return render_template('index.html')
+
+@app.route('/form', methods=['POST', 'GET'])
+def form():
+    if request.method=='POST':
+        #print(request)
+        resp = request.form
+        print(resp)
+        #return 'OK'
+    return redirect(url_for('index'))
+
 @app.route('/<path>')
 def path(path):
-    return render_template(path+'.html')
+    if path in ['1','2','3','4','5','all','index','tech','toyota']:
+        return render_template(path+'.html')
+    else:
+        abort(404)
 
 app.run()
