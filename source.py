@@ -11,7 +11,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/e')
+@app.route('/8')
 def eight():
     return render_template('8.html')
 
@@ -25,13 +25,13 @@ def form():
         #send = sender()
         print(resp['url'])
         #return 'OK'
-    return redirect(url_for('index'))
-
+    return render_template(resp['url']+'.html', msg=1)
+    #return redirect(url_for(resp['url']))
 
 
 @app.route('/<path>')
 def path(path):
-    if path in ['1','2','3','4','5', '6','7', '8','index','tech','toyota']:
+    if path in ['1','2','3','4','5', '6','7', 'index','tech','toyota']:
         return render_template(path+'.html')
     else:
         abort(404)

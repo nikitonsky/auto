@@ -16,7 +16,6 @@
 
 
 
-
 		<noscript>
 			<link rel="stylesheet" href="/static/css/skel.css" />
 			<link rel="stylesheet" href="/static/css/style.css" />
@@ -72,6 +71,7 @@
 				</div>
 				<div class="container 50%">
 					<form action="/form" method="post">
+						<input type="hidden" name="url" value="8">
 						<div class="row uniform">
 							<div class="6u 12u$(small)">
 								<input name="name" id="name" value="" placeholder="Имя" type="text">
@@ -82,7 +82,7 @@
 							<div class="12u$">
 								<textarea name="message" id="message" placeholder="Сообщение" rows="6"></textarea>
 							</div>
-							<input type="hidden" name="url" value="e">
+
 							<div class="12u$">
 								<ul class="actions">
 									<li><input value="Отправить" class="special big" type="submit"></li>
@@ -169,4 +169,8 @@ e-mail:  <a href="mailto:2909333@mail.ru">2909333@mail.ru</a></p>
 
 
 	</body>
+	{% if msg ==1 %}
+	<script> alert('Сообщение отправлено') </script>
+	{% endif %}
+
 </html>
