@@ -20,11 +20,11 @@ def form():
         #send = sender()
 
         #return 'OK'
-    return redirect(url_for('index'))
+    return redirect(url_for(resp['url']))
 
 @app.route('/<path>')
 def path(path):
-    if path in ['1','2','3','4','5','index','tech','toyota']:
+    if path in ['1','2','3','4','5', '6','7','8' 'index','tech','toyota']:
         return render_template(path+'.html')
     else:
         abort(404)
