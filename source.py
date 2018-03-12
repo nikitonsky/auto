@@ -15,7 +15,7 @@ def form():
     if request.method=='POST':
         #print(request)
         resp = request.form
-        print(resp)
+        #print(resp)
         sender.send(resp['name'],resp['email'], resp['message'])
         #send = sender()
 
