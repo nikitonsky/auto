@@ -82,7 +82,7 @@ margin:0;
 	}
 
 		#navButton .toggle:before {
-			content: "ïƒ‰";
+			content: "Menu";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
