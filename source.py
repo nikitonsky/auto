@@ -29,6 +29,8 @@ def path(path):
     else:
         abort(404)
 
-
+@app.errorhandler(404)
+def not_found_error(error):
+    return render_template('404.html')
 
 app.run(host='127.0.0.1', port = 55557)
