@@ -219,8 +219,7 @@ width:auto;
 }
 
 .flex-container {
-  width: 100%;
-  height: auto;
+  
   flex-flow: column wrap;
   margin:0;
 }
