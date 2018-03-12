@@ -222,13 +222,13 @@ width:auto;
   width: 100%;
   height: auto;
   flex-flow: column wrap;
+  margin:0;
 }
 
 .first {
 display:block;
   margin:0;
-margin-left:7vh;
-margin-right:7vh;
+margin-top:1em;
 padding-bottom:20px;
 width:auto;
 }
@@ -237,8 +237,7 @@ width:auto;
 width:auto;
 display:block;
   margin:0;
-margin-right:7vh;
-margin-left:7vh;
+margin-top:1em;
 padding-bottom:20px;
 }
 
