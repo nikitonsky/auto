@@ -23,7 +23,7 @@ def form():
         #print(resp)
         sender.send(resp['name'],resp['email'], resp['message'])
         #send = sender()
-        print(resp['url'])
+        #print(resp['url'])
         #return 'OK'
     return render_template(resp['url']+'.html', msg=1)
     #return redirect(url_for(resp['url']))
