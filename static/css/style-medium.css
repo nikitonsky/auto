@@ -221,7 +221,7 @@ width:auto;
 .flex-container {
   width: 100%;
   height: auto;
-  display: block;
+  flex-flow: column wrap;
 }
 
 .first {
