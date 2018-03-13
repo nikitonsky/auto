@@ -1,10 +1,5 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
-/*
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Basic */
 
@@ -194,15 +189,15 @@ height:65vh;
 		}
 
 .slide:nth-of-type(1){
-    background-image: url(../images/dark_tint.png), url(../images/s1.webp);
+    background-image: url(../images/dark_tint.png), url(../images/s1.jpg);
 background-size:cover;
 }
 .slide:nth-of-type(2){
-    background-image: url(../images/dark_tint.png), url(../images/s2.webp);
+    background-image: url(../images/dark_tint.png), url(../images/s2.jpg);
 background-size:cover;
 }
 .slide:nth-of-type(3){
-    background-image: url(../images/dark_tint.png), url(../images/s3.webp);
+    background-image: url(../images/dark_tint.png), url(../images/s3.jpg);
 background-size:cover;
 }
 
