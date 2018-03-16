@@ -158,8 +158,19 @@ padding-bottom:20px;
 }
 
 .def_img{
-height:35%;
-width:35%;
+display:none;
+}
+
+#imagg{
+width:100%;
+text-align:center;
+}
+
+.def_img_1{
+display:inline-block;
+width:60%;
+height:60%;
+
 }
 
 #main_info p{

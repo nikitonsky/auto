@@ -1,7 +1,7 @@
 
 
 #header {
-background-color: #383b43;
+background-color: black;
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
@@ -10,6 +10,7 @@ background-color: #383b43;
 		width: 100%;
 		z-index: 10000;
 }
+
 
 #main-info{
 margin-left:1em
