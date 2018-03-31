@@ -1492,8 +1492,10 @@ margin:0;
 #footer1 p{
 text-align:center;
 color:black;
-line-height:100px;
+line-height:45px;
 margin:0;
+padding-top:20px;
+padding-bottom:20px;
 padding-right:1em;
 padding-left:1em;
 }
@@ -1609,6 +1611,8 @@ margin-left:1em;
 height:35%;
 width:35%;
 padding-left:0.7em;
+
+padding-right:0.7em;
 padding-bottom:0.3em;
 
 }
