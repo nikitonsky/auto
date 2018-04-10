@@ -20,7 +20,7 @@
 				containers: 1200
 			},
 			large: {
-				media: '(max-width: 1280px)',
+				media: '(max-width: 1291px)',
 				href: '/static/css/style-large.css',
 				containers: 1000,
 				grid: { gutters: ['1.5em', 0] },

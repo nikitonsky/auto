@@ -10,9 +10,51 @@ background-color: black;
 		width: 100%;
 		z-index: 10000;
 }
-
+#headerx nav{
+display:none;
+}
 
 #main-info{
 margin-left:1em
 margin-right:1em;
+}
+
+
+.third-header{
+padding-right:7vw;
+}
+
+.first-header{
+padding-left:7vw;
+}
+
+
+
+.first_menu {
+  margin-left:10em;
+  margin-right:1.5vw;
+}
+
+
+.second_menu {
+  margin-left:1.5em;
+  margin-right:1.5vw;
+}
+
+
+.third_menu {
+  margin-left:1.5em;
+  margin-right:1.5vw;
+}
+
+
+.fourth_menu {
+  margin-left:1.5em;
+  margin-right:1.5vw;
+}
+
+
+.fifth_menu {
+  margin-left:1.5em;
+  margin-right:10vw;
 }

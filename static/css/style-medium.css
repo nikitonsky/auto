@@ -28,6 +28,10 @@ position:relative;
 margin:0;
 }
 
+#headerx nav {
+display:block;
+}
+
 
 /* Banner */
 
@@ -361,4 +365,39 @@ margin-bottom:0.1em;
 padding:0;
 text-decoration:underline;
 
+}
+
+
+#flex-container_menu{
+display:none;
+}
+
+
+.first-header{
+padding-left: 16vw;
+padding-top:0.5em;
+}
+
+.first-header p {
+fonr-size: 0.7;
+}
+
+
+.second-header{
+margin-right:0;
+margin-left:0;
+}
+
+.second-header p {
+font-size: 2em;
+}
+
+
+.first-header{
+padding-right: 16vw;
+padding-top:0.5em;
+}
+
+.third-header p {
+fonr-size: 0.7;
 }
