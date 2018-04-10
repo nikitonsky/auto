@@ -1521,7 +1521,7 @@ text-decoration:underline;
 
 
 .first1 {
-  background: white;
+  background: #f4d000;
   height: auto;
   flex-grow: 3;
 width:33%;
@@ -1536,10 +1536,11 @@ align:middle;
 .first1 p {
 padding-right:1em;
 padding-left:1em;
+color:black;
 }
 
 .second1 {
-  background: white;
+  background: #f4d000;
   height: auto;
   flex-grow: 3;
   padding-top:20px;
@@ -1555,10 +1556,11 @@ align:middle;
 .second1 p {
 padding-right:1em;
 padding-left:1em;
+color:black;
 }
 
 .third1 {
-  background: white;
+  background: #f4d000;
   height: auto;
   flex-grow: 3;
   padding-top:20px;
@@ -1574,6 +1576,7 @@ align:middle;
 .third1 p {
 padding-right:1em;
 padding-left:1em;
+color:black;
 }
 
 
