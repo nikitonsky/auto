@@ -20,41 +20,46 @@ margin-right:1em;
 }
 
 
-.third-header{
-padding-right:7vw;
-}
 
-.first-header{
-padding-left:7vw;
-}
 
 
 
 .first_menu {
-  margin-left:10em;
-  margin-right:1.5vw;
+  margin-left:4.5vw;
+  margin-right:0.9vw;
 }
 
 
 .second_menu {
-  margin-left:1.5em;
-  margin-right:1.5vw;
+  margin-left:0.9em;
+  margin-right:0.9em;
 }
 
 
 .third_menu {
-  margin-left:1.5em;
-  margin-right:1.5vw;
+  margin-left:0.9em;
+  margin-right:0.9em;
 }
 
 
 .fourth_menu {
-  margin-left:1.5em;
-  margin-right:1.5vw;
+  margin-left:0.9em;
+  margin-right:0.9em;
 }
 
 
 .fifth_menu {
-  margin-left:1.5em;
-  margin-right:10vw;
+  margin-left:0.9em;
+  margin-right:4.5vw;
 }
+
+
+
+.first-header {
+  padding-left:5vw;
+}
+
+.third-header {
+  padding-right:5vw;
+}
+
