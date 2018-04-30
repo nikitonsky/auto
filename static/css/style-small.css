@@ -181,3 +181,342 @@ text-align:justify;
 .second2 iframe {
 height:200px;
 }
+
+
+#feedback-desktop-1 {
+  display:none;
+}
+
+
+
+#feedback-desktop-2 {
+ display:none;
+}
+
+
+
+#feedback-desktop-3 {
+ display:none;
+}
+
+
+
+
+#feedback-desktop-4 {
+  display:none;
+}
+
+#feedback-medium{
+display:none;
+}
+
+
+
+#feed-mob-1 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+margin-top:0.7em;
+display:block;
+}
+
+#feed-mob-1 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-1 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+#feed-mob-2 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-2 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-2 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-3 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-3 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-3 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-4 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-4 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-4 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-5 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-5 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-5 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-6 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-6 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-6 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-7 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-7 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-7 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-8 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-8 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-8 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-9 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-9 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-9 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+
+
+
+
+#feed-mob-10 {
+background:#f4d000;
+border-radius:6px;
+border:1px solid #f4d000;
+width:auto;
+height:auto;
+padding-right:10px;
+padding-left:10px;
+padding-top:0.7em;
+margin-left:0.7em;
+margin-right:0.7em;
+margin-bottom:0.7em;
+display:block;
+}
+#feed-mob-10 h1{
+font-size:1.7em;
+color:black;
+text-align:center;
+font-family:'courier new';
+}
+
+
+#feed-mob-10 p{
+font-size:0.7em;
+color:black;
+text-align:center;
+}
+

@@ -31,7 +31,7 @@ def form():
 
 @app.route('/<path>')
 def path(path):
-    if path in ['1','2','3','4','5', '6','7', 'index','tech','toyota']:
+    if path in ['1','2','3','4','5', '6','7', 'index','tech','toyota','feedback']:
         return render_template(path+'.html')
     else:
         abort(404)
