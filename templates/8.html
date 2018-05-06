@@ -17,6 +17,7 @@
 		<script src="/static/js/skel.min.js"></script>
 		<script src="/static/js/skel-layers.min.js"></script>
 		<script src="/static/js/init.js"></script>
+		<script src="/static/js/form.js"></script>
 		<meta name="theme-color" content="#f4d000">
 
 
@@ -59,16 +60,16 @@
 <div id ="flex-container-header">
 
 
-<div class="first-header"><p><strong>Вы катаетесь - мы чиним </strong></p></div>	
-<div class="second-header"><p><strong>Унисервис</strong></p></div>	
-<div class="third-header"><p><strong>+7 (987) 2 909 333<br>+7 (843) 2 674 544</strong></p></div>	
+<div class="first-header"><p><strong>Вы катаетесь - мы чиним </strong></p></div>
+<div class="second-header"><p><strong>Унисервис</strong></p></div>
+<div class="third-header"><p><strong>+7 (987) 2 909 333<br>+7 (843) 2 674 544</strong></p></div>
 </div>
 
 
 
 
 
-			
+
 
 <div id= "flex-container_menu">
 <div id="first_menu"><a href="index"><p>Главная</p></a></div>
@@ -110,7 +111,7 @@
 					</header>
 				</div>
 				<div class="container 50%">
-					<form action="/form" method="post">
+					<form name="form">
 						<input type="hidden" name="url" value="8">
 						<div class="row uniform">
 							<div class="6u 12u$(small)">
@@ -125,7 +126,7 @@
 
 							<div class="12u$">
 								<ul class="actions">
-									<li><input value="Отправить" class="special big" type="submit"></li>
+									<li><input value="Отправить" class="special big" type="button" onClick="Complete();"></li>
 								</ul>
 							</div>
 						</div>

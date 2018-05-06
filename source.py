@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, request, abort
 import sender
+import json
 app = Flask('autoservice')
 
 @app.route('/')
@@ -15,18 +16,17 @@ def index():
 def eight():
     return render_template('8.html')
 
-@app.route('/form', methods=['POST', 'GET'])
+@app.route('/form', methods=['POST'])
 def form():
-    if request.method=='POST':
         #print(request)
-        resp = request.form
-        #print(resp)
+    resp = request.get_json()
+    #print(resp                                                                                                                                                                                                      )
+    try:
         sender.send(resp['name'],resp['email'], resp['message'])
         #send = sender()
-        #print(resp['url'])
-        #return 'OK'
-    return render_template(resp['url']+'.html', msg=1)
-    #return redirect(url_for(resp['url']))
+        return json.dumps({'res':'Ваше сообщение отправлено', 'meta':True})
+    except:
+        return json.dumps({'res':'У нас что-то сломалось. Попробуйте позднее', 'meta':False})
 
 
 @app.route('/<path>')
