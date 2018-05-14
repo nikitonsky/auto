@@ -374,12 +374,13 @@ display:none;
 
 
 .first-header{
-padding-left: 16vw;
-padding-top:0.5em;
+padding-left: 6vw;
+padding-top:0.2em;
 }
 
 .first-header p {
 fonr-size: 0.7;
+padding-top:0;
 }
 
 
@@ -394,7 +395,7 @@ font-size: 2em;
 
 
 .third-header{
-padding-right: 16vw;
+padding-right: 6vw;
 padding-top:0.5em;
 }
 
@@ -499,14 +500,14 @@ text-align:justify;
 
 #feedback-medium h1{
 color:black;
-font-size:2.3em;
+font-size:2em;
 text-align:center;
 font-family:'courier new';
 }
 
 #feedback-medium p{
 color:black;
-font-size:1em;
+font-size:1.3em;
 text-align:center;
 }
 
